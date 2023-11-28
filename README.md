@@ -1,4 +1,6 @@
 # TraceId
+[![codecov](https://codecov.io/gh/yibuma/traceid/graph/badge.svg?token=D0xBb4lMqA)](https://codecov.io/gh/yibuma/traceid)  
+
 TraceId is a trace ID generator based on [Python contextvars](https://docs.python.org/3/library/contextvars.html). It automatically passes the trace ID in asynchronous tasks, enabling cross-coroutine tracing.
 
 ## Installation

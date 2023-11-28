@@ -1,4 +1,6 @@
 # TraceId
+[![codecov](https://codecov.io/gh/yibuma/traceid/graph/badge.svg?token=D0xBb4lMqA)](https://codecov.io/gh/yibuma/traceid)  
+
 TraceId 是一个基于 [Python contextvars](https://docs.python.org/3/library/contextvars.html) 实现的跟踪 ID 生成器，它可以在异步任务中自动传递跟踪 ID，从而实现跨协程的跟踪。
 
 ## 安装
