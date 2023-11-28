@@ -43,7 +43,7 @@ jobs:
       VERSION: ${{ fromJSON(needs.get-supported-OS-and-python-versions.outputs.versions)[0] }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install poetry
         run: pipx install poetry
