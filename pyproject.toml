@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traceid"
-version = "0.1.0"  # x-release-please-version
+version = "1.0.0"  # x-release-please-version
 description = ""
 authors = ["Yibu Ma"]
 readme = "README.md"
