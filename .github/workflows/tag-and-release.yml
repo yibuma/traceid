@@ -26,7 +26,6 @@ jobs:
         with:
           release-type: python
           token: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
-          command: manifest
 
       - name: Check out repository
         uses: actions/checkout@v4
