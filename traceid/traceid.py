@@ -39,7 +39,7 @@ class TraceId(object):
         Returns:
             None
         """
-        if traceid is None:
+        if traceid is None:  # type: ignore
             raise ValueError("TraceId cannot be set to None.")
         if not coverage and cls.is_set():
             raise TraceIdAlreadySetError(
@@ -56,7 +56,7 @@ class TraceId(object):
         """
         try:
             id = cls.traceid_var.get()
-            if id is None:
+            if id is None:  # type: ignore
                 raise TraceIdNotYetSetError(
                     "TraceId is not yet set. Please use TraceId.gen() to generate a new traceid or TraceId.set() to set an existing traceid."
                 )
