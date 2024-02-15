@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traceid"
-version = "1.1.0"  # x-release-please-version
+version = "1.1.1"  # x-release-please-version
 description = "TraceId is a trace ID generator based on Python contextvars. It automatically passes the trace ID in asynchronous tasks, enabling cross-coroutine tracing."
 authors = ["Yibu Ma"]
 license = "BSD 3-Clause"

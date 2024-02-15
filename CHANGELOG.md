@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/yibuma/traceid/compare/v1.1.0...v1.1.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* fix import error ([e203b04](https://github.com/yibuma/traceid/commit/e203b04ed3ee4015778db366b2a5d13e07853208))
+
 ## [1.1.0](https://github.com/yibuma/traceid/compare/v1.0.0...v1.1.0) (2023-11-28)
 
 
