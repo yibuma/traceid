@@ -68,7 +68,7 @@ jobs:
           poetry run coverage xml
 
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         if: ${{ matrix.os == fromJSON(needs.get-supported-OS-and-python-versions.outputs.os)[0] && matrix.version == fromJSON(needs.get-supported-OS-and-python-versions.outputs.versions)[0] }}
         with:
           token: ${{ secrets.CODECOV_TOKEN }}  # Only required for private repositories
