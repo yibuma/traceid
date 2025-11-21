@@ -19,7 +19,7 @@ jobs:
       versions: ${{ steps.poetry-parser.outputs.python_versions }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Run poetry parser
         id: poetry-parser
@@ -39,7 +39,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install poetry
         run: pipx install poetry
